@@ -9,7 +9,7 @@ export const Cart = () => {
     dispatch({ type: "inc_count", payload: productId });
   };
   const decrement = (productId) => {
-    dispatch({ type: "dec_count", payload: productId });
+    dispatch({ type: "dec_count", payload: productId })
   };
   return (
     <>

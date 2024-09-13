@@ -1,9 +1,3 @@
-
-
 export const App = () => {
-  return (
-    <div>
-      {/* <Main2 /> */}
-    </div>
-  );
+  return <div>{/* {<Main1 />} */}</div>;
 };

@@ -26,7 +26,7 @@ const Counter = () => {
   };
   return (
     <div className="box">
-      <h1>count: {count}</h1>
+      <h1>count: {count} </h1>
       <button onClick={incAge}>increment age</button>
       <button onClick={incCount}>increment count</button>
     </div>

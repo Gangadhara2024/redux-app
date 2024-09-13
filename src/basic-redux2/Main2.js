@@ -11,7 +11,7 @@ const Age = () => {
   };
   return (
     <div>
-      <h1>{getState().age}</h1>
+      <h1>{getState().age}</h1> 
       <button onClick={incAge}>increment-age</button>
     </div>
   );

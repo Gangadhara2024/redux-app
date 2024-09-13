@@ -11,7 +11,7 @@ const reducer = (state = initialState, action) => {
       return { ...state, age: state.age + 1 };
     }
     default:
-      return state;
+      return state
   }
 };
 const store2 = legacy_createStore(reducer, composeWithDevTools());

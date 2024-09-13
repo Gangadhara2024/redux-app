@@ -34,5 +34,5 @@ export const Main1 = () => {
   );
 };
 
-// in order to get UI to update we used usestate(); to get UI to update when there is state change we use useEffect and subscribe to update.
+// In order to get UI to update we used usestate(); to get UI to update when there is state change we use useEffect and subscribe to update.
 // by using useEffect, component re-renders and increment gets updated to 11.
